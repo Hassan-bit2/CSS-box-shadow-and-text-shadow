@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Box Shadow</title>
+	<style>
+		.container{
+			display: flex;
+			justify-content: space-evenly;
+		}
+		.card{
+			/*box-shadow property adds shadow to the element*/
+			border: 2px solid red;
+			background-color: black;
+			color: white;
+			box-shadow: inset 7px 10px 25px 9px green;
+			text-shadow: 2px 2px red;
+			/*box-shadow: -7px -10px green;*/
+			/*box-shadow: 10px 7px grey;*/
+			padding: 23px 12px;
+			margin: 23px 12px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="card">
+			<p>This is a card-1</p>
+			<p>CSS box-shadow and text-shadow property adds some shadow to the element and text</p>
+		</div>
+
+		<div class="card">
+			<p>This is a card-2</p>
+			<p>CSS box-shadow and text-shadow property adds some shadow to the element and text</p>
+		</div>
+
+		<div class="card">
+			<p>This is a card-3</p>
+			<p>CSS box-shadow and text-shadow property adds some shadow to the element and text</p>
+		</div>
+	</div>
+</body>
+</html>
